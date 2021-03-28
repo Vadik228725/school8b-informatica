@@ -2,6 +2,7 @@
 #include <string.h>
 using namespace std;
 bool palindrom(char s[100]);
+//Это главный метод
 int main()
 {
     char s[100];
