@@ -13,7 +13,7 @@ int main()
         cout<<"ne palendrom "<<endl;
     return 0;
 }
-
+//Это -полиндром
 bool palindrom(char s[])
 {
     int n = strlen(s);
