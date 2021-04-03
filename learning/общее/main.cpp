@@ -4,13 +4,20 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello world!" << endl;
-
-    int i = 3;
+    setlocale(LC_ALL, "Russian");
     int a;
-    a = i;
-    char b;
-///yyy
+   do
+    {
+        cout<<"введите новое число"<<endl;
+        cin>>a;
+    }
+     while (a>0);
+        cout<<"больше вводить не надо, ты победил :("<<endl;
+
+
+
+
+
 
     return 0;
 }
